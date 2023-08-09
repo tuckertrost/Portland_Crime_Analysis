@@ -53,3 +53,8 @@ Note: The statistic for Homicide Offenses has been updated in the Group A Crimes
 
 **Offense Count:** Number of offenses per incident. Offenses (i.e. this field) are summed for counting purposes.
 
+## Process
+
+### Data Cleaning
+
+#### Excel
