@@ -10,7 +10,7 @@ In this data analysis project, I delve into a comprehensive exploration of crime
 Conduct a comprehensive analysis of crime trends in Portland, Oregon from 2015 to 2023 to provide data-driven insights that raise awareness of evolving challenges and empower law enforcement and policy makers with actionable information for informed decision-making in regards to public safety.
 
 ### Limitations
-Recognizing the intricate web of factors influencing Portland's current challenges is imperative. This analysis delves specifically into deciphering crime trends and patterns within the city, while acknowledging the need for an in-depth exploration of additional elements shaping the issue.
+Recognizing the intricate web of factors influencing Portland's current challenges is crucial. This analysis delves specifically into deciphering crime trends and patterns within the city, while acknowledging the need for an in-depth exploration of additional elements shaping the issue.
 
 Such analyses include:
 * **Substance Abuse**
