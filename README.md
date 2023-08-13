@@ -58,3 +58,11 @@ Note: The statistic for Homicide Offenses has been updated in the Group A Crimes
 ### Data Cleaning
 
 #### Excel
+To clean my dataset in Excel I did the following:
+* Checked for and removed any duplicates
+* Removed unneeded columns (ReportDate, OpenDataX/Y, Index)
+* Filled Missing neighborhood fields with unknown
+* Converted military time to standard time and rounded up to the nearest hour
+  - Formula: **(=TEXT(TIME(INT(A2/100), ROUNDUP(MOD(A2, 100)/60, 0), 0), "h AM/PM")**
+
+I then created some pivot tables for some quick analysis to understand the data better. I looked at the number of offenses per neighborhood, and the number of offenses per offense category/type. Obviously a much more in depth analysis will come later but these pivot tables gave me an idea of what I am working with.
