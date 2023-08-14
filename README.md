@@ -66,3 +66,14 @@ To clean my dataset in Excel I did the following:
   - Formula: **(=TEXT(TIME(INT(A2/100), ROUNDUP(MOD(A2, 100)/60, 0), 0), "h AM/PM")**
 
 I then created some pivot tables for some quick analysis to understand the data better. I looked at the number of offenses per neighborhood, and the number of offenses per offense category/type. Obviously a much more in depth analysis will come later but these pivot tables gave me an idea of what I am working with.
+
+#### SQL
+To continue the cleaning process, I jumped into BigQuery. The queries that I used can be found here.
+
+To summarize the cleaning in SQL the following was performed:
+* Blank Lat/Lon cells that had a known neighborhood were filled with the average lat/lon from the given neighborhood.
+* Day of week, month, and year were all extracted from OccurDate and placed in their own columns.
+
+The data was now clean and ready to be queried and analyzed.
+
+## Analyze
