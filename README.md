@@ -68,7 +68,7 @@ To clean my dataset in Excel I did the following:
 I then created some pivot tables for some quick analysis to understand the data better. I looked at the number of offenses per neighborhood, and the number of offenses per offense category/type. Obviously a much more in depth analysis will come later but these pivot tables gave me an idea of what I am working with.
 
 #### SQL
-To continue the cleaning process, I jumped into BigQuery. The queries that I used can be found here.
+To continue the cleaning process, I jumped into BigQuery. The queries that I used can be found [here](https://github.com/tuckertrost/Portland_Crime_Analysis/blob/main/DataCleaning.sql).
 
 To summarize the cleaning in SQL the following was performed:
 * Blank Lat/Lon cells that had a known neighborhood were filled with the average lat/lon from the given neighborhood.
