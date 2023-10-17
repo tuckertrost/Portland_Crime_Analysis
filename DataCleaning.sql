@@ -39,6 +39,9 @@ SET
   month_num = EXTRACT(MONTH FROM OccurDate)
 Where month_num is null;
 
+
+
+
 --Add columns for day and month names
 ALTER TABLE 
   `portland-crime-analysis.portland_crime_data.pcrime`
